@@ -1,0 +1,15 @@
+filename,filepath,true_class,predicted_class,confidence,loss
+predict_hat_1.jpeg,predict/predict_hat/predict_hat_1.jpeg,com_chapeu,com_chapeu,0.03215916454792023,0.03268761560320854
+predict_hat_3.jpeg,predict/predict_hat/predict_hat_3.jpeg,com_chapeu,sem_chapeu,0.9899465441703796,4.599838733673096
+predict_hat_4.jpeg,predict/predict_hat/predict_hat_4.jpeg,com_chapeu,sem_chapeu,0.5799511671066284,0.8673843145370483
+predict_hat_0.jpeg,predict/predict_hat/predict_hat_0.jpeg,com_chapeu,com_chapeu,0.2712987959384918,0.3164914548397064
+predict_hat_6.jpeg,predict/predict_hat/predict_hat_6.jpeg,com_chapeu,com_chapeu,0.4141094982624054,0.534622311592102
+predict_hat_5.jpeg,predict/predict_hat/predict_hat_5.jpeg,com_chapeu,com_chapeu,0.14524851739406586,0.15694452822208405
+predict_hat_2.jpeg,predict/predict_hat/predict_hat_2.jpeg,com_chapeu,com_chapeu,0.020245475694537163,0.02045324072241783
+predict_no_hat_3.jpeg,predict/predict_no_hat/predict_no_hat_3.jpeg,sem_chapeu,sem_chapeu,0.5000978112220764,0.6929515600204468
+predict_no_hat_5.jpeg,predict/predict_no_hat/predict_no_hat_5.jpeg,sem_chapeu,sem_chapeu,1.0,1.1920928955078125e-07
+predict_no_hat_1.jpeg,predict/predict_no_hat/predict_no_hat_1.jpeg,sem_chapeu,sem_chapeu,0.9934091567993164,0.006612658966332674
+predict_no_hat_0.jpeg,predict/predict_no_hat/predict_no_hat_0.jpeg,sem_chapeu,sem_chapeu,0.9801383018493652,0.020061593502759933
+predict_no_hat_4.jpeg,predict/predict_no_hat/predict_no_hat_4.jpeg,sem_chapeu,sem_chapeu,0.875236451625824,0.13326120376586914
+predict_no_hat_6.jpeg,predict/predict_no_hat/predict_no_hat_6.jpeg,sem_chapeu,sem_chapeu,0.951927900314331,0.04926598072052002
+predict_no_hat_2.jpeg,predict/predict_no_hat/predict_no_hat_2.jpeg,sem_chapeu,sem_chapeu,0.9790210127830505,0.021202173084020615
