@@ -1,5 +1,6 @@
 import os
 
+import matplotlib.pyplot as plt
 import pandas as pd
 import streamlit as st
 from src.main import df, get_conditional_count, get_data_agg
@@ -82,6 +83,7 @@ def main_page():
             title2="F1 Score - Sem Chapéu",
             value2=f"{f1_sc:.2f}",
         )
+        import matplotlib.pyplot as plt
 
     # Chamando as funções
     get_metric(df)
