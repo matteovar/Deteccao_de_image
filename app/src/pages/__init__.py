@@ -5,5 +5,5 @@ from .main_page import main_page
 page = {
     "Desempenho do Modelo": main_page,
     "Classificador de Chapeu": deteccacao,
-    "Grafico": mostrar_todos_os_graficos,
+    "Análise das Previsões do Modelo": mostrar_todos_os_graficos,
 }

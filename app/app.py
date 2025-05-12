@@ -10,7 +10,7 @@ def main():
         "Identificador de Chapeu": [
             st.Page("src/pages/main_page.py", title="Desempenho do Modelo"),
             st.Page("src/pages/deteccacao.py", title="Classificador de Chapeu"),
-            st.Page("src/pages/graph.py", title="Grafico"),
+            st.Page("src/pages/graph.py", title="Análise das Previsões do Modelo"),
         ],
     }
 
