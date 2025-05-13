@@ -1,5 +1,4 @@
 import os
-
 import gdown
 import matplotlib.pyplot as plt
 import numpy as np
@@ -14,17 +13,17 @@ def deteccacao():
     model_path = "meu_modelo.h5"
 
     # Baixar o modelo do Google Drive se ainda não estiver salvo
-    # Baixar o modelo do Google Drive se ainda não estiver salvo
-    if not os.path.exists(model_path):
-        url = "https://drive.google.com/uc?id=11SDM_KTSeNfTZxHoWz-lWsS1AH2F3xON"
-        gdown.download(url, model_path, quiet=False, use_cookies=False)
+    with st.spinner("Baixando o modelo... Isso pode demorar um pouco."):
+        if not os.path.exists(model_path):
+            url = "https://drive.google.com/uc?id=11SDM_KTSeNfTZxHoWz-lWsS1AH2F3xON"
+            gdown.download(url, model_path, quiet=False, use_cookies=False)
 
-        # Verifica se o arquivo baixado parece válido
-        if os.path.getsize(model_path) < 10000:
-            st.error(
-                "❌ Erro: o arquivo do modelo não foi baixado corretamente. Verifique o link do Google Drive e as permissões de compartilhamento."
-            )
-            st.stop()
+            # Verifica se o arquivo baixado parece válido
+            if os.path.getsize(model_path) < 10000:
+                st.error(
+                    "❌ Erro: o arquivo do modelo não foi baixado corretamente. Verifique o link do Google Drive e as permissões de compartilhamento."
+                )
+                st.stop()
 
     # Carregar o modelo
     model = load_model(model_path)
@@ -56,7 +55,8 @@ def deteccacao():
         st.image(uploaded_file, caption="Imagem enviada", width=300)
 
         # Predição
-        prob_com_chapeu, prob_sem_chapeu = predizer(uploaded_file)
+        with st.spinner("Realizando a predição..."):
+            prob_com_chapeu, prob_sem_chapeu = predizer(uploaded_file)
 
         # Gráfico
         categorias = ["Com chapéu", "Sem chapéu"]
