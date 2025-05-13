@@ -5,6 +5,7 @@ from src.main import df
 from src.utils.plotly_charts.imshow_chart import imshow_chart
 from src.utils.plotly_charts.bar_chart import bar_chart1
 from src.utils.plotly_charts.box_plot import box_plot_chart
+from src.utils.cards import create_title
 
 df["correto"] = df["true_class"] == df["predicted_class"]
 
@@ -81,7 +82,7 @@ def acuracia_por_classe(df):
 
 
 def mostrar_todos_os_graficos():
-    st.title("Análise das Previsões do Modelo")
+    create_title("Análise das Previsões do Modelo")
 
     matriz_confusao(df)
 
