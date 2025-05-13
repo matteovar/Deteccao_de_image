@@ -6,6 +6,7 @@ import streamlit as st
 import tensorflow as tf
 from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing import image
+from src.utils.cards import create_title
 
 
 def deteccacao():
@@ -44,8 +45,7 @@ def deteccacao():
         return 1 - pred, pred  # , com_chapeu, sem_chapeu
 
     # Título do app
-    st.title("🎩 Classificador de Chapéu")
-
+    create_title("🎩 Detecção de Chapéu")
     # Upload da imagem
     uploaded_file = st.file_uploader(
         "Faça upload de uma imagem", type=["jpg", "jpeg", "png"]
