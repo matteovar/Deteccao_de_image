@@ -108,6 +108,8 @@ def model(title: str, title1: str, value1: str, title2: str, value2: str):
                 text-align: center;
                 color: #00AFFF;
                 margin-top: 0;
+                font-size: 50px;  /* Tamanho do título aumentado */
+                font-weight: 600;  /* Opcional: deixa o título mais grosso */
             }}
             .section {{
                 flex: 1;
@@ -125,7 +127,7 @@ def model(title: str, title1: str, value1: str, title2: str, value2: str):
             }}
         </style>
         <div class="card">
-            <h2 class="title">{title}</h2>
+            <h2 class="title" >{title}</h2>
             <div style="display: flex; justify-content: space-around;">
                 <div class="section">
                     <h4 style="color: #fff;">{title1}</h4>
