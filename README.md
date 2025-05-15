@@ -26,6 +26,10 @@ Este projeto tem como objetivo realizar a **classificação de imagens** de indi
 
 ---
 
+### Link do Streamlit
+
+[Streamlit](https://deteccaodechapeu.streamlit.app)
+
 ##  Como Executar o Projeto
 
 ### 1. Intale Python 3.11
