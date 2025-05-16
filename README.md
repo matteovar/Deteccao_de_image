@@ -8,7 +8,7 @@ Acesse a aplicação Streamlit desenvolvida no seguinte hyperlink: <a href="http
 
 ## Vídeo
 
-Acesse o vídeo desenvolvido no seguinte hyperlink: <a href="https://youtube.com">vídeo</a>
+Acesse o vídeo desenvolvido no seguinte hyperlink: <a href="https://youtu.be/bKGqzj-inE8">vídeo</a>
 
 ## Funcionalidades
 
