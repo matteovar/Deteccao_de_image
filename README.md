@@ -4,7 +4,7 @@ Este projeto tem como objetivo realizar a **classificação de imagens** de indi
 
 ## Streamlit
 
-Acesse a aplicação Streamlit desenvolvida no seguinte hyperlink: <a href="https://deteccaodechapeu.streamlit.app/deteccacao">website</a>
+Acesse a aplicação Streamlit desenvolvida no seguinte hyperlink: <a href="https://deteccaodechapeu.streamlit.app">website</a>
 
 ## Vídeo
 
