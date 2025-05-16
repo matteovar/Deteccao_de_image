@@ -2,6 +2,14 @@
 
 Este projeto tem como objetivo realizar a **classificação de imagens** de indivíduos **com e sem chapéu** por meio de uma **rede neural convolucional (CNN)** implementada com as bibliotecas TensorFlow e Keras. O modelo foi integrado a uma interface web interativa utilizando o **framework Streamlit**, permitindo a análise de desempenho e a predição de novas imagens.
 
+## Streamlit
+
+Acesse a aplicação Streamlit desenvolvida no seguinte hyperlink: <a href="https://deteccaodechapeu.streamlit.app/deteccacao">website</a>
+
+## Vídeo
+
+Acesse o vídeo desenvolvido no seguinte hyperlink: <a href="https://youtube.com">vídeo</a>
+
 ## Funcionalidades
 
 -  Upload de imagens para predição em tempo real.
