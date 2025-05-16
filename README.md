@@ -34,10 +34,6 @@ Acesse o vídeo desenvolvido no seguinte hyperlink: <a href="https://youtube.com
 
 ---
 
-### Link do Streamlit
-
-[Streamlit](https://deteccaodechapeu.streamlit.app)
-
 ##  Como Executar o Projeto
 
 ### 1. Intale Python 3.11
